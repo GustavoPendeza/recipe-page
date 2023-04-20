@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    position: relative;
+    max-width: 1000px;
+    margin: 2rem auto;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+#div-header-info {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+#header-info {
+    max-width: 600px;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+    color: #4F4F4F;
+}
+
+#cheesecake {
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 12px;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 0;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#right-column {
+    padding: 2rem 3em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-height: 325px;
+}
+
+.characteristics {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.characteristics-text h6 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #BDBDBD;
+    margin-bottom: 2px;
+}
+
+.characteristics-text span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
+
+#restaurant-menu {
+    color: #F2994A;
+    font-size: 30px;
+}
+
+#clock {
+    color: #4F4F4F;
+    font-size: 30px;
+}
+
+#servings {
+    color: #F2994A;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+}
+
+.ingredients-section {
+    margin-top: 2rem;
+}
+
+.ingredients {
+    margin-top: 2rem;
+}
+
+.ingredients-check {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox {
+    position: relative;
+    top: 3px;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.ingredients-info {
+    max-width: 555px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.ingredients-info label {
+    cursor: pointer;
+}
+
+#isb {
+    font-style: italic;
+    font-weight: 500;
+}
+
+#instructions-section {
+    margin-top: 2rem;
+}
+
+.instructions {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.instructions-number {
+    height: 36px;
+    width: 36px;
+    background-color: #F2994A;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.instructions-info {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 528px;
+    line-height: 150%;
+}
+
+#source {
+    margin-top: 4rem;
+    color: #BDBDBD;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#source a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+footer {
+    margin-top: 6rem;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer a {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #828282;
+}
+
+@media screen and (max-width: 685px) {
+    body {
+        margin: 2rem .8rem;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #header-info {
+        font-size: 12px;
+        max-width: 320px;
+    }
+    
+    #cheesecake {
+        margin-top: 1rem;
+    }
+
+    main {
+        margin-top: 1.5rem;
+    }
+
+    #main-content {
+        display: block;
+        flex-direction: row;
+    }
+
+    #right-column {
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+        max-height: none;
+    }
+
+    #timing {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .characteristics {
+        gap: .5rem;
+        margin-bottom: 1rem;
+        align-items: last baseline;
+    }
+    
+    .characteristics-text h6 {
+        font-size: 8px;
+        margin-bottom: 0px;
+        line-height: 0px;
+    }
+    
+    .characteristics-text span {
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+    #restaurant-menu {
+        color: #F2994A;
+        font-size: 20px;
+    }
+    
+    #clock {
+        color: #4F4F4F;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .ingredients-section {
+        margin-top: 1rem;
+    }
+    
+    .ingredients {
+        margin-top: 1.5rem;
+    }
+
+    .ingredients-check {
+        gap: 0.5rem;
+    }
+
+    .ingredients-info {
+        max-width: 85%;
+        font-size: 14px;
+    }
+
+    #cheesecake-section {
+        margin-top: 2rem;
+    }
+
+    #instructions-title {
+        font-size: 24px;
+    }
+
+    .instructions-info {
+        max-width: 85%;
+    }
+
+    #source {
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+}
